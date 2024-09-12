@@ -40,14 +40,5 @@ app:
     coreMoneyTransferService:
       url: ${MONEY_TRANSFER_SERVICE_HOST:https://k0wo9.wiremockapi.cloud}
 
-springdoc:
-  api-docs:
-    path: /money-transfer-api-1.0.yml
-    enabled: true
-  swagger-ui:
-    path: '/swagger-ui'
-    url: /money-transfer-api-1.0.yml
-    doc-expansion: none
-    disable-swagger-default-url: false
-  packagesToScan: 'com.mashreq.money.transfer'
-  pathsToMatch: '/**'
+springdoc.api-docs.path: /v3/api-docs
+springdoc.swagger-ui.path: /swagger-ui.html
