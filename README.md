@@ -62,3 +62,9 @@ If successful it will give HTTP status 200 else it will give 500.
 * Junit5
 * Entity created in DB:  TransferEntity
 * C3 architectural pattern
+
+# Swagger Used
+* Swagger is used to document the APIs. You can access the swagger documentation at   
+  http://localhost:8080/swagger-ui/index.html
+* Swagger version springdoc-openapi-starter-webmvc-ui:2.6.0 which is compatible with Spring Boot 3
+
